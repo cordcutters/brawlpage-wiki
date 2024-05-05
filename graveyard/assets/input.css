@@ -4,5 +4,5 @@
 
 body {
   font-family: "Lilita One", sans-serif;
-  @apply text-white bg-[url("./pattern.svg")] bg-[4rem,4rem] bg-center bg-[#67219B] min-h-svh;
+  @apply text-white bg-[url("./pattern.svg")] bg-[4rem,4rem] bg-center bg-[#67219B] bg-fixed min-h-svh;
 }
