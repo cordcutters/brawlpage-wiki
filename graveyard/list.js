@@ -1,7 +1,7 @@
 export const list = [
   {
     name: "Star Points",
-    image: "/images/star-point.webp",
+    image: "./images/star-point.webp",
     description:
       "Star Points Star Points were a currency that could be earned by achieving certain ranks for any Brawler and at the end of every Trophy League season, every 5 ranks achieved (from rank 10) and Power League season or through certain Quests or Challenges. Star Points were used to buy exclusive skins. Unlike Gems, they could not be purchased with in-app purchases.",
     added: "26 Jun 2019",
