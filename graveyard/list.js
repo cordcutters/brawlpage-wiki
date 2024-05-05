@@ -34,4 +34,13 @@ export const list = [
     added: "27 Feb 2019",
     removed: "31 Sep 2022",
   },
+  {
+    name: "Boxes",
+    image:
+      "https://laptopcat.github.io/bs-fankit-rehosted/game-assets/darryl_megabox_pin.png",
+    description:
+      "Brawl Boxes were the main way of progression, you could get Power Points, coins, and even gems at some point from these",
+    added: "14 Jun 2017",
+    removed: "10 Dec 2022",
+  },
 ];
