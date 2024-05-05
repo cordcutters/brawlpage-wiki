@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  background-color: dodgerblue;
+  padding: 1rem;
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-family: system-ui, sans-serif;
+}
+
+#wrap {
+  margin-inline: auto;
+  max-width: 1000px;
+}
+
+#search {
+  margin-block: 1rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: inherit;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  list-style: none;
+}
+
+.brawler {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 0.5rem;
+  overflow: clip;
+  color: black;
+}
+
+.brawler > img {
+  aspect-ratio: 1;
+  width: 5rem;
+  object-fit: cover;
+  object-position: left;
+}
+
+.brawler > .meta {
+  align-self: center;
+  padding-inline: 1rem;
+}
+
+.brawler:hover > .meta > button {
+  display: inline;
+}
+
+.brawler > .meta > button {
+  display: none;
+  float: right;
+  cursor: pointer;
+  border: none;
+  background-color: dodgerblue;
+  padding: 0.25rem 0.5rem;
+  color: white;
+}
+
+.brawler > .meta > button:hover {
+  background-color: royalblue;
+}
+
+footer {
+  opacity: 0.75;
+  margin-block-start: 3rem;
+  margin-block-end: 2rem;
+  text-align: center;
+}
