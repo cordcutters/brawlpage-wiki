@@ -1,11 +1,26 @@
 export const list = [
   {
+    name: "Power League",
+    image: "./assets/images/power-league.webp",
+    description: "Power league was the predecessor of Ranked",
+    added: "16 March 2021",
+    removed: "27 Feb 2024",
+  },
+  {
     name: "Chroma Credits",
     image:
-      "https://laptopcat.github.io/bs-fankit-rehosted/game-assets/icon_chroma_credits.png",
+      "https://laptopcat.github.io/bs-fankit-rehosted/game-assets/icon_chroma_credits_stack.png",
     description:
       "Chroma Credits were a currency used to unlock Chromatic Brawlers",
     added: "12 Dec 2022",
+    removed: "12 Dec 2023",
+  },
+  {
+    name: "Chromatic Rarity",
+    image: "./assets/images/chromatic.webp",
+    description:
+      "Chromatic was a brawler rarity for brawlers from the Brawl Pass",
+    added: "13 May 2020",
     removed: "12 Dec 2023",
   },
   {
@@ -64,9 +79,18 @@ export const list = [
     name: "Lone Star",
     image:
       "https://laptopcat.github.io/bs-fankit-rehosted/game-assets/lone_star_icon.png",
-    description: "",
+    description:
+      "Lone Star was a game mode where you would get stars when defeating enemies, the player with the most stars would win. It's like a 10 player free-for-all bounty",
     added: "18 Sep 2019",
     removed: "23 May 2021",
+  },
+  {
+    name: "Power Play",
+    image: "./assets/images/power-play.webp",
+    description:
+      "Power Play was the predecessor of Power League, which was the predecessor of Ranked",
+    added: "10 Oct 2019",
+    removed: "16 March 2021",
   },
   {
     name: "Bea's Honey Coat",
@@ -106,10 +130,23 @@ export const list = [
   {
     name: "Life Leech",
     image: "./assets/images/life-leech.png",
+    description:
+      "Life Leech was a gamemode where you would gradually lose HP, and could only heal by damaging enemies. It was similar to Graveyard Shift",
   },
   {
-    name: "Pins, badges, medals upgrading system",
+    name: "Old Upgrading system",
+    image: "./assets/images/upgrades.webp",
     description:
       "You used to upgrade your brawlers using pins, badges and medals that you would get from boxes",
+    added: "12 Dec 2017",
+    removed: "2017/2018",
+  },
+  {
+    name: "Chips",
+    image: "./assets/images/chip.webp",
+    description:
+      "You would receive chips after getting a duplicate brawler, they were used to buy brawlers",
+    added: "14 Jun 2017",
+    removed: "12 Dec 2017",
   },
 ];
