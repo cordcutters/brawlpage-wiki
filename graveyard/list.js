@@ -85,14 +85,6 @@ export const list = [
     removed: "23 May 2021",
   },
   {
-    name: "Power Play",
-    image: "./assets/images/power-play.webp",
-    description:
-      "Power Play was the predecessor of Power League, which was the predecessor of Ranked",
-    added: "10 Oct 2019",
-    removed: "16 March 2021",
-  },
-  {
     name: "Bea's Honey Coat",
     image:
       "https://laptopcat.github.io/bs-fankit-rehosted/game-assets/bea_starpower_02.png",
@@ -100,6 +92,14 @@ export const list = [
       "Bea's Star Power Honey Coat would let her survive a fatal hit by leaving her with 1 HP and giving her a temporary shield",
     added: "1 Jan 2020",
     removed: "15 March 2021",
+  },
+  {
+    name: "Power Play",
+    image: "./assets/images/power-play.webp",
+    description:
+      "Power Play was the predecessor of Power League, which was the predecessor of Ranked",
+    added: "10 Oct 2019",
+    removed: "16 March 2021",
   },
   {
     name: "8-Bit's Extra Life",
